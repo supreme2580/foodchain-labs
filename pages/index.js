@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar"
 
 const Home = () => {
   return(
-    <div className="space-y-32">
+    <div className="space-y-24">
       <Head>
         <title>Foodchain Labs</title>
         <link rel="icon" src="/vercel.svg" />
