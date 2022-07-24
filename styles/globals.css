@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.team::-webkit-scrollbar {
+    display: none;
+}
+
+.team {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

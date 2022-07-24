@@ -3,28 +3,25 @@ import Link from "next/link"
 
 const Navbar = () => {
     return(
-        <div>
-            <div className="w-full bg-zinc-300 h-14"></div>
-            <div className="px-5 flex items-center justify-between -mt-7">
-                <div className="flex-0">
-                    <Image src="/vercel.svg" width={100} height={50} />
-                </div>
-                <div className="flex justify-center flex-1">
-                    <div className="p-1.5 bg-orange-300 rounded-lg max-w-lg">
-                        <div className="flex justify-center items-center space-x-5">
-                            <Link href="/">
-                                <a><div className="bg-lime-500 py-1.5 rounded-lg text-white px-5 hover:cursor-pointer">Home</div></a>
-                            </Link>
-                                <a><div className="py-1.5 px-5 hover:cursor-pointer hover:bg-lime-500 hover:text-white rounded-lg">Partners</div></a>
-                            <Link href="/">
-                                <a><div className="py-1.5 px-5 hover:cursor-pointer hover:bg-lime-500 hover:text-white rounded-lg">About Us</div></a>
-                            </Link>
-                            <Link href="/">
-                                <a><div className="py-1.5 px-5 hover:cursor-pointer hover:bg-lime-500 hover:text-white rounded-lg">Contact</div></a>
-                            </Link>
-                        </div>
+        <div className="pt-10 space-y-10">
+            <div className="flex justify-center flex-1">
+                <div className="bg-[#ECE0CD] rounded-lg max-w-lg border-white border-2">
+                    <div className="flex justify-center items-center space-x-5 font-syne">
+                        <Link href="/">
+                            <a><div className="bg-green py-2 rounded-lg text-white px-5 hover:cursor-pointer">Home</div></a>
+                        </Link>
+                            <a><div className="py-2 px-5 hover:cursor-pointer hover:bg-green hover:text-white rounded-lg text-ash">Partners</div></a>
+                        <Link href="/">
+                            <a><div className="py-2 px-5 hover:cursor-pointer hover:bg-green hover:text-white rounded-lg text-ash">About Us</div></a>
+                        </Link>
+                        <Link href="/">
+                            <a><div className="py-2 px-5 hover:cursor-pointer hover:bg-green hover:text-white rounded-lg text-ash">Contact</div></a>
+                        </Link>
                     </div>
                 </div>
+            </div>
+            <div className="flex justify-center">
+                <Image src="/image.png" width={100} height={100} />
             </div>
         </div>
     )
