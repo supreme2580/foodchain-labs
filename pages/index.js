@@ -3,6 +3,7 @@ import Features from "../components/Features"
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
 import Team from "../components/Team"
+import Waitlist from "../components/Waitlist"
 
 const Home = () => {
   return(
@@ -15,6 +16,7 @@ const Home = () => {
       <Hero />
       <Features />
       <Team />
+      <Waitlist />
     </div>
   )
 }
