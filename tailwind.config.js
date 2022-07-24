@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         "ash":"#51493D",
         "dark":"#0F0F0E",
+        "black":"#252820",
         "green":"#668C3A"
       },
       fontFamily: {
