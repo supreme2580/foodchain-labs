@@ -3,7 +3,7 @@ import Image from "next/image"
 const Team = () => {
     return(
         <div className="flex justify-center pl-20">
-            <div className="flex space-x-5 items-center overflow-x-scroll team">
+            <div className="flex space-x-5 items-center overflow-x-scroll team pb-4">
                 <div className="text-2xl font-agrandir min-w-[100px] text-ash text-center">Meet the team</div>
                 <div className="min-w-[250px] bg-white rounded-xl shadow-lg flex flex-col items-center justify-center p-5 space-y-2.5 text-ash hover:cursor-pointer">
                     <div>
