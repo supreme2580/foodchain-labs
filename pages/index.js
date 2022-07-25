@@ -11,7 +11,7 @@ const Home = () => {
     <div className="bg-[#F3ECE1] space-y-20">
       <Head>
         <title>Foodchain Labs</title>
-        <link rel="icon" src="/vercel.svg" />
+        <link rel="icon" href="/logo.png" />
       </Head>
       <Navbar />
       <Hero />

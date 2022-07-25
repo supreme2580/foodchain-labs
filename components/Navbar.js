@@ -21,7 +21,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="flex justify-center">
-                <Image src="/image.png" width={100} height={100} />
+                <Image src="/logo.png" width={100} height={100} />
             </div>
         </div>
     )

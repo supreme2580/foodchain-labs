@@ -13,7 +13,8 @@ module.exports = {
       },
       fontFamily: {
         "syne":['Syne'],
-        'agrandir':['Agrandir']
+        'agrandir':['Agrandir'],
+        "inter":['Inter']
       }
     },
   },
