@@ -11,7 +11,7 @@ const FeaturesMobile = () => {
                         <Image src="/avatar.jpg" width={50} height={50} className="rounded-full" />
                     </div>
                     <h4 className="text-ash text-2xl font-semibold">Digital Farmers Market</h4>
-                    <p className="text-base font-normal text-ash">The web3 based indexed farm produce data is collected by foodchain community</p>
+                    <p className="text-base font-normal text-dark">The web3 based indexed farm produce data is collected by foodchain community</p>
                     <div>
                         <Link href="/">
                             <a>
@@ -53,7 +53,7 @@ const FeaturesMobile = () => {
                         <Image src="/avatar.jpg" width={50} height={50} className="rounded-full" />
                     </div>
                     <h4 className="text-ash text-2xl font-semibold">Digital Farmers Market</h4>
-                    <p className="text-base font-normal">The web3 based indexed farm produce data is collected by foodchain community</p>
+                    <p className="text-base font-normal text-dark">The web3 based indexed farm produce data is collected by foodchain community</p>
                     <div>
                         <Link href="/">
                             <a>
