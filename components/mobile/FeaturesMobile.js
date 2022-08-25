@@ -6,7 +6,7 @@ const FeaturesMobile = () => {
         <div>
             <h3 className="w-full text-center text-3xl font-semibold text-ash">Features</h3>
             <div className="flex flex-col justify-center items-center space-y-4 mt-4 w-full">
-                <div className="w-[300px] h-[335px] bg-white px-2.5 py-8 space-y-2.5 shadow-lg shadow-ash">
+                <div className="w-[300px] h-[335px] bg-white px-4 py-8 space-y-2.5 shadow-lg shadow-ash">
                     <div>
                         <Image src="/avatar.jpg" width={50} height={50} className="rounded-full" />
                     </div>
@@ -27,7 +27,7 @@ const FeaturesMobile = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="w-[300px] h-[370px] bg-green px-5 py-8 space-y-2.5 shadow-lg shadow-ash">
+                <div className="w-[300px] h-[370px] bg-green px-4 py-8 space-y-2.5 shadow-lg shadow-ash">
                     <div>
                         <Image src="/avatar.jpg" width={50} height={50} className="rounded-full" />
                     </div>
@@ -48,7 +48,7 @@ const FeaturesMobile = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="w-[300px] h-[335px] bg-white px-2.5 py-8 space-y-2.5 shadow-lg shadow-ash">
+                <div className="w-[300px] h-[335px] bg-white px-4 py-8 space-y-2.5 shadow-lg shadow-ash">
                     <div>
                         <Image src="/avatar.jpg" width={50} height={50} className="rounded-full" />
                     </div>
